@@ -1,0 +1,60 @@
+event-platform
+├── README.md
+├── app
+│   ├── api -----python
+│   │   └── events
+│   │       ├── [slug]
+│   │       │   └── route.ts
+│   │       └── route.ts
+│   ├── events
+│   │   └── [slug]
+│   │       └── page.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components
+│   ├── BookEvent.tsx
+│   ├── EventCard.tsx
+│   ├── EventDetails.tsx
+│   ├── ExploreBtn.tsx
+│   ├── LightRays.tsx
+│   └── Navbar.tsx
+├── components.json
+├── database
+│   ├── booking.model.ts
+│   ├── event.model.ts
+│   └── index.ts
+├── eslint.config.mjs
+├── instrumentation-client.ts
+├── lib
+│   ├── actions
+│   │   ├── booking.actions.ts
+│   │   └── event.actions.ts
+│   ├── constants.ts
+│   ├── mongodb.ts
+│   └── utils.ts
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public
+│   ├── icons
+│   │   ├── arrow-down.svg
+│   │   ├── audience.svg
+│   │   ├── calendar.svg
+│   │   ├── clock.svg
+│   │   ├── logo.png
+│   │   ├── mode.svg
+│   │   └── pin.svg
+│   └── images
+│       ├── event-full.png
+│       ├── event1.png
+│       ├── event2.png
+│       ├── event3.png
+│       ├── event4.png
+│       ├── event5.png
+│       └── event6.png
+├── tree.txt 
+└── tsconfig.json
